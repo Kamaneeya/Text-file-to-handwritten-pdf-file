@@ -104,3 +104,4 @@ pdf_creation(imagelist.pop(0))
 #Appending them to pdfs
 for PNG_FILE in imagelist:
     pdf_creation(PNG_FILE, flag=True)
+
