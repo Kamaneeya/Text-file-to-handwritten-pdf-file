@@ -59,7 +59,7 @@ def worddd(Input):
 
 if __name__ == '__main__':
     try:
-        with open('boom.txt', 'r') as file:
+        with open('ml.txt', 'r') as file:
             data = file.read().replace('\n', '')
 
         with open('final_output.pdf', 'w') as file:
